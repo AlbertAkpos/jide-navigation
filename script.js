@@ -60,9 +60,9 @@ const gallery_item_size = document.querySelector(".card").clientWidth;
 
 document.querySelector(".next").addEventListener("click", () => {
   console.log("clicked");
-  gallery.scrollLeft += 40;
+  gallery.scrollLeft += 100;
 });
 
 document.querySelector(".prev").addEventListener("click", () => {
-  gallery.scrollLeft -= 40;
+  gallery.scrollLeft -= 100;
 });
